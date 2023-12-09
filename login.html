@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <center><h1>Login Form</h1></center>
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="login.jpg" alt="Avatar" class="avatar" />
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required />
+
+        <label for="Password"><b>Password</b></label>
+        <input
+          type="pass"
+          placeholder="Enter Password"
+          name="Password"
+          required
+        />
+
+        <label for="Sapid"><b>SapID</b></label>
+        <input
+          type="Sapid"
+          placeholder="Enter your SapID"
+          name="Sapid"
+          required
+        />
+
+        <label for="Contact"><b>Contact Details</b></label>
+        <input
+          type="Contact"
+          placeholder="Mobile Number"
+          name="Contact"
+          required
+        />
+
+        <label for="Courses"><b>Course</b></label>
+        <input
+          type="Course"
+          placeholder="Enter the Course you have opted for"
+          name="Courses"
+          required
+        />
+
+        <label for="College"><b>College Name</b></label>
+        <input
+          type="College"
+          placeholder="Enter your College Name"
+          name="College"
+          required
+        />
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" /> Remember
+          me
+        </label>
+      </div>
+
+      <div class="container" style="background-color: #f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </body>
+</html>
